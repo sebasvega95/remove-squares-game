@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/remove-squares-game/precache-manifest.75d5bdfdd29e4d033df81b148b26d867.js"
+  "/remove-squares-game/precache-manifest.231d1fd0b398481dc05f2c5302313160.js"
 );
 
 self.addEventListener('message', (event) => {
