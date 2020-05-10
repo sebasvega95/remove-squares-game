@@ -93,18 +93,20 @@ export default function Game({ numItemsPerGroup }: Props) {
   let gameOver = checkGameOver(state.itemsRemovedPerGroup);
   return (
     <>
-      <h2
-        style={{
-          color: gameOver
-            ? playerColors[1 - state.currentPlayer]
-            : playerColors[state.currentPlayer],
-          fontWeight: "bold",
-        }}
-      >
-        {gameOver
-          ? `Juego terminado! Jugador ${2 - state.currentPlayer} gana!`
-          : `Turno del jugador ${state.currentPlayer + 1}`}
-      </h2>
+      <div>
+        <h2
+          style={{
+            color: gameOver
+              ? playerColors[1 - state.currentPlayer]
+              : playerColors[state.currentPlayer],
+            fontWeight: "bold",
+          }}
+        >
+          {gameOver
+            ? `Juego terminado! Jugador ${2 - state.currentPlayer} gana!`
+            : `Turno del jugador ${state.currentPlayer + 1}`}
+        </h2>
+      </div>
       <GameContainer>
         {state.itemsRemovedPerGroup.map((items, group) => (
           <Group key={`group-${group}`}>
@@ -178,23 +180,22 @@ const Button = styled.button`
 
 const GameContainer = styled.div`
   display: flex;
-  min-height: 500px;
-  min-width: 100%;
-  flex-direction: row;
-  justify-content: space-around;
+  min-height: 300px;
+  align-self: stretch;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 2em;
 `;
 
 const Group = styled.div`
   display: flex;
-  flex: 1;
-  padding: 10em 1em;
+  max-height: 10em;
+  padding: 5em 2em;
   justify-content: center;
+  align-items: stretch;
+  flex-flow: row wrap;
 
-  &:first-child {
-    border-right: 2px solid palevioletred;
-  }
-
-  &:last-child {
+  & + & {
     border-left: 2px solid palevioletred;
   }
 `;
@@ -205,8 +206,8 @@ interface ItemProps {
   canRemove: boolean;
 }
 const Item = styled.button`
-  min-height: 50px;
-  min-width: 50px;
+  height: 5em;
+  width: 5em;
   background-color: ${({ removed, color }: ItemProps) =>
     removed ? "white" : color};
   border: 3px dotted
