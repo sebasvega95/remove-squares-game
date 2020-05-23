@@ -84,7 +84,7 @@ function reducer(state: State, action: Action): State {
   return state;
 }
 
-const groupColors = ["#66c2a5", "#fc8d62", "#8da0cb"];
+const groupColors = ["LightPink", "LightSkyBlue", "#fc8d62"];
 const playerColors = ["DarkSlateBlue", "DarkRed"];
 
 export default function Game({ numItemsPerGroup }: Props) {
