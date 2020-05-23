@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f57f749e0e60b270f58ce246fe20b0e6",
+    "revision": "71fafc8b0e2d5c36dacfb5a1b74655de",
     "url": "/remove-squares-game/index.html"
   },
   {
-    "revision": "0da79f01da309cc72498",
+    "revision": "f51a27697c6721570e56",
     "url": "/remove-squares-game/static/css/main.9899037b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/remove-squares-game/static/js/2.a933a56b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0da79f01da309cc72498",
-    "url": "/remove-squares-game/static/js/main.95b798d6.chunk.js"
+    "revision": "f51a27697c6721570e56",
+    "url": "/remove-squares-game/static/js/main.df6d25eb.chunk.js"
   },
   {
     "revision": "9bce2e2f88660fcf8ac1",
