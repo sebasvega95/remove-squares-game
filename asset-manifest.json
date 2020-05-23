@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/remove-squares-game/static/css/main.9899037b.chunk.css",
-    "main.js": "/remove-squares-game/static/js/main.7fb517df.chunk.js",
-    "main.js.map": "/remove-squares-game/static/js/main.7fb517df.chunk.js.map",
+    "main.js": "/remove-squares-game/static/js/main.479d9821.chunk.js",
+    "main.js.map": "/remove-squares-game/static/js/main.479d9821.chunk.js.map",
     "runtime-main.js": "/remove-squares-game/static/js/runtime-main.b7aa8ed6.js",
     "runtime-main.js.map": "/remove-squares-game/static/js/runtime-main.b7aa8ed6.js.map",
     "static/js/2.a933a56b.chunk.js": "/remove-squares-game/static/js/2.a933a56b.chunk.js",
     "static/js/2.a933a56b.chunk.js.map": "/remove-squares-game/static/js/2.a933a56b.chunk.js.map",
     "index.html": "/remove-squares-game/index.html",
-    "precache-manifest.8a505301a062150529df0c7455197511.js": "/remove-squares-game/precache-manifest.8a505301a062150529df0c7455197511.js",
+    "precache-manifest.d6dbae64511e2d87e1d5fbd586d7a11c.js": "/remove-squares-game/precache-manifest.d6dbae64511e2d87e1d5fbd586d7a11c.js",
     "service-worker.js": "/remove-squares-game/service-worker.js",
     "static/css/main.9899037b.chunk.css.map": "/remove-squares-game/static/css/main.9899037b.chunk.css.map",
     "static/js/2.a933a56b.chunk.js.LICENSE.txt": "/remove-squares-game/static/js/2.a933a56b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b7aa8ed6.js",
     "static/js/2.a933a56b.chunk.js",
     "static/css/main.9899037b.chunk.css",
-    "static/js/main.7fb517df.chunk.js"
+    "static/js/main.479d9821.chunk.js"
   ]
 }
